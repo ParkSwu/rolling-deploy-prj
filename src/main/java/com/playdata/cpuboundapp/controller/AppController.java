@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "<h1 style='color:red;'>web hook test!!!</h1>";
+        return "<h1 style='color:red;'>back test!!!</h1>";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
